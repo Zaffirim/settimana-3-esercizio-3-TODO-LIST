@@ -27,7 +27,7 @@ function addTask() {
         li.appendChild(deleteButton);
 
         li.addEventListener('click', function(e) {
-            e.preventDefault
+            e.preventDefault();
             // this.parentNode.removeChild(this); 
             if (!this.classList.contains("barrato")) {
                 this.classList.add("barrato");
