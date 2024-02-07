@@ -1,4 +1,5 @@
-
+// il prof riprende le cose che ci servono 
+//let button = document.getElementById('invia');
 
 function addTask() {
     var inputTask = document.getElementById('inputTask');
